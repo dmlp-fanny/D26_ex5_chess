@@ -82,7 +82,7 @@ echo $board_on_turn_1;
 ?>
 
 <br>
-
+<!-- <h3>hi</h3> -->
 <?php
 $pieces_positions1 = fen2array('rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3');
 $pieces_positions1_board = new Board($pieces_positions1);
